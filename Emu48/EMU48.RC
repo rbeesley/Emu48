@@ -1,0 +1,1050 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE
+BEGIN
+    IDD_WRITEONLYREG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_FIND, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_PROFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 24
+    END
+
+    IDD_RPLVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_BREAKEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 113
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 145
+    END
+
+    IDD_SET_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        VERTGUIDE, 14
+        VERTGUIDE, 161
+        VERTGUIDE, 168
+        VERTGUIDE, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_SET_MEMORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        VERTGUIDE, 14
+        VERTGUIDE, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_SET_PERIPHERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        VERTGUIDE, 14
+        VERTGUIDE, 147
+        VERTGUIDE, 154
+        VERTGUIDE, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_CHOOSEKML, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_KMLLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 294
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 160
+    END
+
+    IDD_DISASM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DEBUG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 274
+        TOPMARGIN, 17
+        BOTTOMMARGIN, 264
+    END
+
+    IDD_NEWVALUE, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_ENTERADR, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+
+    IDD_ENTERBREAK, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_INSTRUCTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+
+    IDD_MACROSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_DEBUG_MEMSAVE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DEBUG_MEMLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 257
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DEBUG_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WRITEONLYREG DIALOG DISCARDABLE  0, 0, 180, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Write Only Registers"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "20-24 (Display Start Address)",IDC_STATIC,11,11,131,8
+    RTEXT           "00000",IDC_ADDR20_24,144,11,25,8
+    LTEXT           "25-27 (Display Line Offset)",IDC_STATIC,11,21,131,8
+    RTEXT           "000",IDC_ADDR25_27,144,21,25,8
+    LTEXT           "28-29 (Display Line Counter)",IDC_STATIC,11,31,131,8
+    RTEXT           "00",IDC_ADDR28_29,144,31,25,8
+    LTEXT           "30-34 (Display Secondary Start Address)",IDC_STATIC,11,
+                    41,131,8
+    RTEXT           "00000",IDC_ADDR30_34,144,41,25,8
+    DEFPUSHBUTTON   "OK",IDCANCEL,65,61,50,14
+END
+
+IDD_FIND DIALOGEX 0, 0, 197, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Find"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Find &what:",IDC_STATIC,7,9,34,8
+    COMBOBOX        IDC_FIND_DATA,46,7,88,41,CBS_DROPDOWN | CBS_AUTOHSCROLL |
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Find &ASCII",IDC_FIND_ASCII,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,141,9,49,10
+    PUSHBUTTON      "&Previous",IDC_FIND_PREV,6,26,50,14
+    DEFPUSHBUTTON   "&Next",IDC_FIND_NEXT,74,26,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,140,26,50,14
+END
+
+IDD_PROFILE DIALOGEX 0, 0, 178, 31
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Profiler"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Last Instruction Cycles:",IDC_STATIC,7,7,74,8,NOT
+                    WS_GROUP
+    LTEXT           "",IDC_PROFILE_LASTCYCLES,84,7,87,8,NOT WS_GROUP
+    LTEXT           "Last Instruction Time:",IDC_STATIC,7,16,68,8,NOT
+                    WS_GROUP
+    LTEXT           "",IDC_PROFILE_LASTTIME,84,16,87,8,NOT WS_GROUP
+END
+
+IDD_RPLVIEW DIALOGEX 0, 0, 186, 180
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "RPL Object Viewer"
+FONT 8, "Courier New"
+BEGIN
+    EDITTEXT        IDC_RPLVIEW_DATA,7,7,172,166,ES_MULTILINE |
+                    ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | NOT
+                    WS_TABSTOP
+END
+
+IDD_BREAKEDIT DIALOG DISCARDABLE  0, 0, 118, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Breakpoints"
+FONT 8, "Courier New"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDCANCEL,83,81,30,14
+    LTEXT           "Current breakpoints:",IDC_STATIC_BREAKPOINT,5,5,82,8
+    LISTBOX         IDC_BREAKEDIT_WND,5,17,108,58,LBS_SORT |
+                    LBS_OWNERDRAWFIXED | LBS_HASSTRINGS |
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT |
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Add...",IDC_BREAKEDIT_ADD,5,81,30,14
+    PUSHBUTTON      "&Delete",IDC_BREAKEDIT_DELETE,44,81,30,14
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 261, 160
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Emu48"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_EMU48,IDC_STATIC,7,6,20,20,SS_REALSIZEIMAGE
+    LTEXT           "",IDC_VERSION,29,6,151,8,NOT WS_GROUP
+    LTEXT           "Copyright © 2016 Christoph Gieﬂelink && SÈbastien Carlier",
+                    IDC_STATIC,29,18,181,8
+    DEFPUSHBUTTON   "OK",IDOK,215,12,39,14
+    EDITTEXT        IDC_LICENSE,7,33,247,112,ES_MULTILINE | ES_AUTOHSCROLL |
+                    ES_READONLY
+END
+
+IDD_SET_GENERAL DIALOG DISCARDABLE  0, 0, 251, 134
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Authentic Calculator Speed",IDC_REALSPEED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,17,133,10
+    CONTROL         "Enable Virtual LCD Delay",IDC_GRAYSCALE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,28,133,10
+    CONTROL         "Always On Top",IDC_ALWAYSONTOP,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,14,40,133,10
+    CONTROL         "Activation Follows Mouse",IDC_ACTFOLLOWSMOUSE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,52,133,10
+    CONTROL         "Single Instance",IDC_SINGLEINSTANCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,64,133,10
+    CONTROL         "Automatically Save Files",IDC_AUTOSAVE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,76,133,10
+    CONTROL         "Automatically Save Files On Exit",IDC_AUTOSAVEONEXIT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,88,133,10
+    CONTROL         "Show Load Object Warning",IDC_OBJECTLOADWARNING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,100,133,10
+    CONTROL         "Always Show KML Compilation Result",IDC_ALWAYSDISPLOG,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,112,133,10
+    GROUPBOX        "General",IDC_STATIC,7,7,148,120
+    CONTROL         "Show Title",IDC_SHOWTITLE,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,168,17,69,10
+    CONTROL         "Show Menu",IDC_SHOWMENU,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,168,28,69,10
+    GROUPBOX        "Style",IDC_STATIC,161,7,83,70
+    CONTROL         "HP Mnemonics",IDC_DISASM_HP,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP | WS_TABSTOP,168,94,69,11
+    CONTROL         "Class Mnemonics",IDC_DISASM_CLASS,"Button",
+                    BS_AUTORADIOBUTTON,168,108,69,11
+    GROUPBOX        "Disassembler",IDC_STATIC,161,80,83,47
+END
+
+IDD_SET_MEMORY DIALOG DISCARDABLE  0, 0, 251, 134
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Memory"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Port 1 is Plugged",IDC_PORT1EN,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,14,20,67,10
+    CONTROL         "Port 1 is Writeable",IDC_PORT1WR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,124,20,69,10
+    CONTROL         "Port 2 is Shared",IDC_PORT2ISSHARED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,32,65,10
+    CONTROL         "Port 2 is Writeable",IDC_PORT2WR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,124,32,69,10
+    LTEXT           "Port 2 File :",IDC_STATIC,14,47,37,8
+    EDITTEXT        IDC_PORT2,52,45,175,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_PORT2LOAD,227,45,10,12
+    GROUPBOX        "Memory Cards",IDC_STATIC,7,7,237,58
+END
+
+IDD_SET_PERIPHERAL DIALOG DISCARDABLE  0, 0, 251, 134
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "Peripheral"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Volume",IDC_STATIC,14,21,24,8
+    CONTROL         "Slider1",IDC_SOUND_SLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,44,16,193,18
+    LTEXT           "Device",IDC_STATIC,13,42,24,8
+    COMBOBOX        IDC_SOUND_DEVICE,44,40,193,87,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Sound",IDC_STATIC,7,7,237,54
+    LTEXT           "IP Address:",IDC_STATIC,14,81,37,8
+    LTEXT           "Port:",IDC_STATIC,119,81,16,8
+    EDITTEXT        IDC_IR_ADDR,14,91,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IR_PORT,119,91,28,12,ES_NUMBER
+    GROUPBOX        "Infrared Printer",IDC_STATIC,7,64,147,50
+    LTEXT           "Wire:",IDC_STATIC,168,79,17,8
+    COMBOBOX        IDC_WIRE,189,77,48,42,CBS_DROPDOWNLIST | WS_VSCROLL |
+                    WS_TABSTOP
+    LTEXT           "IR:",IDC_STATIC,168,95,9,8
+    COMBOBOX        IDC_IR,189,93,48,43,CBS_DROPDOWNLIST | WS_VSCROLL |
+                    WS_TABSTOP
+    GROUPBOX        "Serial Ports",IDC_STATIC,161,64,83,50
+END
+
+IDD_CHOOSEKML DIALOG DISCARDABLE  0, 0, 195, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Your KML Script"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,138,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,27,50,14
+    COMBOBOX        IDC_KMLSCRIPT,7,47,181,120,CBS_DROPDOWNLIST |
+                    CBS_OEMCONVERT | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EMUDIR,7,17,106,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_EMUDIRSEL,113,17,10,14
+    PUSHBUTTON      "V",IDC_UPDATE,123,17,10,14
+    LTEXT           "Emu48 Directory :",IDC_STATIC,7,7,115,8
+    LTEXT           "Current KML Script :",IDC_STATIC,7,37,115,8
+END
+
+IDD_KMLLOG DIALOGEX 0, 0, 301, 167
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "KML Script Compilation Result"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,188,146,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,244,146,50,14
+    CONTROL         "Show Script compilation result next time",
+                    IDC_ALWAYSDISPLOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    7,146,139,14
+    GROUPBOX        "",IDC_STATIC,7,7,287,36
+    CTEXT           "Title of the Script",IDC_TITLE,71,14,158,8
+    CTEXT           "by",IDC_STATIC,71,22,158,8
+    CTEXT           "The Author",IDC_AUTHOR,71,30,158,8,NOT WS_GROUP
+    EDITTEXT        IDC_KMLLOG,7,48,287,92,ES_MULTILINE | ES_AUTOHSCROLL |
+                    ES_OEMCONVERT | ES_READONLY | WS_VSCROLL | NOT
+                    WS_TABSTOP
+END
+
+IDD_DISASM DIALOG DISCARDABLE  0, 0, 255, 165
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Disassembler"
+FONT 8, "Courier New"
+BEGIN
+    LTEXT           "Address (HEX):",IDC_ADDRESS,7,147,46,8
+    EDITTEXT        IDC_DISASM_ADR,56,145,36,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Next Address",IDC_DISASM_NEXT,99,144,47,14
+    PUSHBUTTON      "&Copy Data",IDC_DISASM_COPY,150,144,47,14
+    PUSHBUTTON      "Cancel",IDCANCEL,201,144,47,14
+    LTEXT           "Mapping Mode:",IDC_DISASM_MODE_TEXT,12,17,45,8
+    COMBOBOX        IDC_DISASM_MODE,60,14,35,90,CBS_DROPDOWNLIST |
+                    WS_TABSTOP
+    GROUPBOX        "Module",IDC_DISASM_MODULE,7,5,241,26
+    LISTBOX         IDC_DISASM_WIN,7,37,241,100,NOT LBS_NOTIFY |
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL |
+                    WS_TABSTOP
+END
+
+IDD_DEBUG DIALOG DISCARDABLE  0, 0, 279, 269
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Debugger"
+MENU IDR_DEBUG
+FONT 8, "Courier New"
+BEGIN
+    LISTBOX         IDC_DEBUG_CODE,11,27,165,122,NOT LBS_NOTIFY |
+                    LBS_OWNERDRAWFIXED | LBS_HASSTRINGS |
+                    LBS_NOINTEGRALHEIGHT | LBS_WANTKEYBOARDINPUT |
+                    WS_TABSTOP
+    GROUPBOX        "Code",IDC_STATIC_CODE,5,17,177,138
+    LTEXT           "A= 0000000000000000",IDC_REG_A,192,27,77,8
+    LTEXT           "B= 0000000000000000",IDC_REG_B,192,34,77,8
+    LTEXT           "C= 0000000000000000",IDC_REG_C,192,41,77,8
+    LTEXT           "D= 0000000000000000",IDC_REG_D,192,48,77,8
+    LTEXT           "R0=0000000000000000",IDC_REG_R0,192,58,77,8
+    LTEXT           "R1=0000000000000000",IDC_REG_R1,192,65,77,8
+    LTEXT           "R2=0000000000000000",IDC_REG_R2,192,72,77,8
+    LTEXT           "R3=0000000000000000",IDC_REG_R3,192,79,77,8
+    LTEXT           "R4=0000000000000000",IDC_REG_R4,192,86,77,8
+    LTEXT           "D0=00000",IDC_REG_D0,192,97,33,8
+    LTEXT           "D1=00000",IDC_REG_D1,236,97,33,8
+    LTEXT           "P=0",IDC_REG_P,192,108,13,8
+    LTEXT           "PC=00000",IDC_REG_PC,236,108,33,8
+    LTEXT           "OUT=000",IDC_REG_OUT,192,119,29,8
+    LTEXT           "IN=0000",IDC_REG_IN,240,119,29,8
+    LTEXT           "ST=0000",IDC_REG_ST,192,130,29,8
+    LTEXT           "CY=0",IDC_REG_CY,224,130,17,8
+    LTEXT           "Mode=H",IDC_REG_MODE,244,130,25,8
+    LTEXT           "MP=0",IDC_REG_MP,192,140,17,8
+    LTEXT           "SR=0",IDC_REG_SR,212,140,17,8
+    LTEXT           "SB=0",IDC_REG_SB,232,140,17,8
+    LTEXT           "XM=0",IDC_REG_XM,252,140,17,8
+    GROUPBOX        "Registers",IDC_STATIC_REGISTERS,187,17,87,138
+    LISTBOX         IDC_DEBUG_MEM,11,166,165,52,NOT LBS_NOTIFY |
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_DISABLED
+    LISTBOX         IDC_DEBUG_MEM_ADDR,12,168,25,48,NOT LBS_NOTIFY |
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_DISABLED | NOT
+                    WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL0,40,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER | WS_TABSTOP
+    LISTBOX         IDC_DEBUG_MEM_COL1,52,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL2,64,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL3,76,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL4,88,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL5,100,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL6,112,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_COL7,124,168,11,48,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | NOT WS_BORDER
+    LISTBOX         IDC_DEBUG_MEM_TEXT,139,168,35,48,NOT LBS_NOTIFY |
+                    LBS_NOINTEGRALHEIGHT | LBS_NOSEL | WS_DISABLED | NOT
+                    WS_BORDER
+    GROUPBOX        "Memory",IDC_STATIC_MEMORY,5,156,177,68
+    LISTBOX         IDC_DEBUG_STACK,192,166,76,52,LBS_NOINTEGRALHEIGHT |
+                    LBS_WANTKEYBOARDINPUT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Stack",IDC_STATIC_STACK,187,156,87,68
+    LTEXT           "Size Mask",IDC_STATIC,11,243,37,8
+    LTEXT           "Address",IDC_STATIC,11,251,29,8
+    CTEXT           "I/O",IDC_STATIC,55,235,21,8
+    CTEXT           "NCE2",IDC_STATIC,80,235,21,8
+    CTEXT           "CE1",IDC_STATIC,105,235,21,8
+    CTEXT           "CE2",IDC_STATIC,130,235,21,8
+    CTEXT           "NCE3",IDC_STATIC,155,235,21,8
+    CTEXT           "-----",IDC_MMU_IO_S,55,243,21,8
+    CTEXT           "-----",IDC_MMU_NCE2_S,80,243,21,8
+    CTEXT           "-----",IDC_MMU_CE1_S,105,243,21,8
+    CTEXT           "-----",IDC_MMU_CE2_S,130,243,21,8
+    CTEXT           "-----",IDC_MMU_NCE3_S,155,243,21,8
+    CTEXT           "-----",IDC_MMU_IO_A,55,251,21,8
+    CTEXT           "-----",IDC_MMU_CE1_A,105,251,21,8
+    CTEXT           "-----",IDC_MMU_CE2_A,130,251,21,8
+    CTEXT           "-----",IDC_MMU_NCE2_A,80,251,21,8
+    CTEXT           "-----",IDC_MMU_NCE3_A,155,251,21,8
+    GROUPBOX        "MMU",IDC_STATIC_MMU,5,225,177,39
+    LTEXT           "Interrupts    =",IDC_STATIC,193,235,61,8
+    LTEXT           "Keyboard Scan =",IDC_STATIC,193,243,61,8
+    LTEXT           "Bank Switcher =",IDC_MISC_BS_TXT,193,251,61,8,
+                    WS_DISABLED
+    LTEXT           "",IDC_MISC_INT,256,235,13,8
+    LTEXT           "",IDC_MISC_KEY,256,243,13,8
+    LTEXT           "00",IDC_MISC_BS,256,251,13,8,WS_DISABLED
+    GROUPBOX        "Miscellaneous",IDC_STATIC_MISC,187,225,87,39
+END
+
+IDD_NEWVALUE DIALOG DISCARDABLE  0, 0, 175, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "New value (hexadecimal):",IDC_STATIC,8,9,81,8
+    EDITTEXT        IDC_NEWVALUE,93,7,75,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,21,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,103,29,50,14
+END
+
+IDD_ENTERADR DIALOG DISCARDABLE  0, 0, 156, 50
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Address"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter address (hexadecimal):",IDC_STATIC,8,9,93,8
+    EDITTEXT        IDC_ENTERADR,105,7,44,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,14,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,92,29,50,14
+END
+
+IDD_ENTERBREAK DIALOG DISCARDABLE  0, 0, 156, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Breakpoint"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Enter breakpoint (hexadecimal):",IDC_STATIC,8,9,99,8
+    EDITTEXT        IDC_ENTERADR,112,7,37,12,ES_AUTOHSCROLL
+    CONTROL         "&Code",IDC_BPCODE,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP | WS_TABSTOP,17,24,33,10
+    CONTROL         "R&PL",IDC_BPRPL,"Button",BS_AUTORADIOBUTTON,17,50,30,10
+    CONTROL         "Memory &Access",IDC_BPACCESS,"Button",
+                    BS_AUTORADIOBUTTON,79,24,63,10
+    CONTROL         "Memory &Read",IDC_BPREAD,"Button",BS_AUTORADIOBUTTON,79,
+                    37,60,10
+    CONTROL         "Memory &Write",IDC_BPWRITE,"Button",BS_AUTORADIOBUTTON,
+                    79,50,59,10
+    DEFPUSHBUTTON   "OK",IDOK,14,65,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,92,65,50,14
+END
+
+IDD_INSTRUCTIONS DIALOG DISCARDABLE  0, 0, 186, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Last Instructions"
+FONT 8, "Courier New"
+BEGIN
+    LTEXT           "Instructions (disassembly maybe incorrect):",
+                    IDC_INSTR_TEXT,7,7,173,8
+    LISTBOX         IDC_INSTR_CODE,7,18,172,122,NOT LBS_NOTIFY |
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL |
+                    WS_TABSTOP
+    PUSHBUTTON      "&Copy Data",IDC_INSTR_COPY,7,148,50,14
+    PUSHBUTTON      "C&lear Data",IDC_INSTR_CLEAR,68,148,50,14
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,129,148,50,14
+END
+
+IDD_MACROSET DIALOG DISCARDABLE  0, 0, 156, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Macro Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Slow",IDC_MACRO_SLOW,12,16,16,8,WS_DISABLED
+    LTEXT           "Fast",IDC_MACRO_FAST,78,16,14,8,WS_DISABLED
+    CONTROL         "Slider1",IDC_MACRO_SLIDER,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_DISABLED | WS_TABSTOP,12,26,82,21
+    CONTROL         "&Real",IDC_MACRO_REAL,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP | WS_TABSTOP,103,18,39,10
+    CONTROL         "&Manual",IDC_MACRO_MANUAL,"Button",BS_AUTORADIOBUTTON,
+                    103,32,39,10
+    GROUPBOX        "Replay Speed",IDC_STATIC,7,3,142,49
+    DEFPUSHBUTTON   "OK",IDOK,13,60,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,93,60,50,14
+END
+
+IDD_DEBUG_MEMSAVE DIALOG DISCARDABLE  0, 0, 264, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Memory Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File:",IDC_STATIC,7,10,14,8
+    EDITTEXT        IDC_DEBUG_DATA_FILE,25,7,181,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_DEBUG_DATA_BUT,207,7,50,14
+    LTEXT           "Start Address (hexadecimal):",IDC_STATIC,7,30,90,8
+    EDITTEXT        IDC_DEBUG_DATA_STARTADDR,101,27,37,14
+    LTEXT           "End Address (hexadecimal):",IDC_STATIC,7,46,88,8
+    EDITTEXT        IDC_DEBUG_DATA_ENDADDR,101,44,37,14
+    PUSHBUTTON      "OK",IDOK,207,27,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,44,50,14
+END
+
+IDD_DEBUG_MEMLOAD DIALOG DISCARDABLE  0, 0, 264, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Load Memory Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "File:",IDC_STATIC,7,10,14,8
+    EDITTEXT        IDC_DEBUG_DATA_FILE,25,7,181,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_DEBUG_DATA_BUT,207,7,50,14
+    LTEXT           "Start Address (hexadecimal):",IDC_STATIC,7,30,90,8
+    EDITTEXT        IDC_DEBUG_DATA_STARTADDR,101,27,37,14
+    PUSHBUTTON      "OK",IDOK,207,27,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,207,44,50,14
+END
+
+IDD_DEBUG_SETTINGS DIALOG DISCARDABLE  0, 0, 184, 116
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Debugger Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "HP Mnemonics",IDC_DISASM_HP,"Button",BS_AUTORADIOBUTTON |
+                    WS_GROUP | WS_TABSTOP,15,16,65,11
+    CONTROL         "Class Mnemonics",IDC_DISASM_CLASS,"Button",
+                    BS_AUTORADIOBUTTON,98,16,70,11
+    GROUPBOX        "Disassembler",IDC_STATIC,7,3,170,32
+    CONTROL         "Enable",IDC_DEBUG_SET_SYMB,"Button",BS_AUTOCHECKBOX |
+                    WS_TABSTOP,15,49,38,10
+    LTEXT           "Model:",IDC_STATIC,104,50,22,8
+    COMBOBOX        IDC_DEBUG_SET_MODEL,131,47,38,72,CBS_DROPDOWNLIST |
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_DEBUG_SET_FILE,15,65,143,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_DEBUG_SET_BROWSE,159,65,10,14
+    GROUPBOX        "Symbolic",IDC_STATIC,7,36,170,53
+    DEFPUSHBUTTON   "OK",IDOK,12,95,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,122,95,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CHECKBOX            BITMAP  DISCARDABLE     "checkbox.bmp"
+IDR_DEBUG_TOOLBAR       BITMAP  MOVEABLE PURE   "dbgtool.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_DEBUG_TOOLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_DEBUG_RUN
+    BUTTON      ID_DEBUG_CANCEL
+    BUTTON      ID_DEBUG_BREAK
+    SEPARATOR
+    BUTTON      ID_BREAKPOINTS_SETBREAK
+    BUTTON      ID_BREAKPOINTS_CODEEDIT
+    SEPARATOR
+    BUTTON      ID_DEBUG_STEP
+    BUTTON      ID_DEBUG_STEPOVER
+    BUTTON      ID_DEBUG_STEPOUT
+    BUTTON      ID_DEBUG_RUNCURSOR
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,8,0
+ PRODUCTVERSION 1,5,8,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "04090000"
+        BEGIN
+            VALUE "CompanyName", "Christoph Gieﬂelink & Sebastien Carlier\0"
+            VALUE "FileDescription", "HP38/39/40/48/49 Emulator\0"
+            VALUE "FileVersion", "1, 5, 8, 0\0"
+            VALUE "InternalName", "Emu48\0"
+            VALUE "LegalCopyright", "Copyright © 2016\0"
+            VALUE "OriginalFilename", "Emu48.exe\0"
+            VALUE "ProductName", "Emu48\0"
+            VALUE "ProductVersion", "1, 5, 8, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_EMU48               ICON    DISCARDABLE     "Emu48.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New...",                     ID_FILE_NEW
+        MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE, GRAYED
+        MENUITEM "Save &As...",                 ID_FILE_SAVEAS, GRAYED
+        MENUITEM "&Close",                      ID_FILE_CLOSE, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "S&ettings...",                ID_VIEW_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File List",            ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Load Object...",             ID_OBJECT_LOAD
+        MENUITEM "&Save Object...",             ID_OBJECT_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "C&opy Screen",                ID_VIEW_COPY
+        MENUITEM "&Copy Stack",                 ID_STACK_COPY
+        MENUITEM "&Paste Stack",                ID_STACK_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Reset Calculator",           ID_VIEW_RESET, GRAYED
+        POPUP "&Backup"
+        BEGIN
+            MENUITEM "&Save",                       ID_BACKUP_SAVE, GRAYED
+            MENUITEM "&Restore",                    ID_BACKUP_RESTORE
+            , GRAYED
+            MENUITEM "&Delete",                     ID_BACKUP_DELETE, GRAYED
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Change &KML Script...",       ID_VIEW_SCRIPT
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "D&isassembler...",            ID_TOOL_DISASM
+        MENUITEM "&Debugger...",                ID_TOOL_DEBUG
+        MENUITEM SEPARATOR
+        POPUP "&Macro"
+        BEGIN
+            MENUITEM "&Record...",                  ID_TOOL_MACRO_RECORD
+            , GRAYED
+            MENUITEM "&Play...",                    ID_TOOL_MACRO_PLAY
+            , GRAYED
+            MENUITEM "&Stop",                       ID_TOOL_MACRO_STOP
+            , GRAYED
+            MENUITEM "S&ettings...",                ID_TOOL_MACRO_SETTINGS
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Emu48...",             ID_ABOUT
+    END
+END
+
+IDM_MENU MENU DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        POPUP "&File"
+        BEGIN
+            MENUITEM "&New...",                     ID_FILE_NEW
+            MENUITEM "&Open...",                    ID_FILE_OPEN
+            MENUITEM "&Save",                       ID_FILE_SAVE, GRAYED
+            MENUITEM "Save &As...",                 ID_FILE_SAVEAS, GRAYED
+            MENUITEM "&Close",                      ID_FILE_CLOSE, GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "S&ettings...",                ID_VIEW_SETTINGS
+            MENUITEM SEPARATOR
+            MENUITEM "Recent File List",            ID_FILE_MRU_FILE1
+            , GRAYED
+            MENUITEM SEPARATOR
+            MENUITEM "E&xit",                       ID_FILE_EXIT
+        END
+        POPUP "&Edit"
+        BEGIN
+            MENUITEM "&Load Object...",             ID_OBJECT_LOAD
+            MENUITEM "&Save Object...",             ID_OBJECT_SAVE
+            MENUITEM SEPARATOR
+            MENUITEM "C&opy Screen",                ID_VIEW_COPY
+            MENUITEM "&Copy Stack",                 ID_STACK_COPY
+            MENUITEM "&Paste Stack",                ID_STACK_PASTE
+            MENUITEM SEPARATOR
+            MENUITEM "&Reset Calculator",           ID_VIEW_RESET, GRAYED
+            POPUP "&Backup"
+            BEGIN
+                MENUITEM "&Save",                       ID_BACKUP_SAVE
+                , GRAYED
+                MENUITEM "&Restore",                    ID_BACKUP_RESTORE
+                , GRAYED
+                MENUITEM "&Delete",                     ID_BACKUP_DELETE
+                , GRAYED
+            END
+        END
+        POPUP "&View"
+        BEGIN
+            MENUITEM "Change &KML Script...",       ID_VIEW_SCRIPT
+        END
+        POPUP "&Tools"
+        BEGIN
+            MENUITEM "D&isassembler...",            ID_TOOL_DISASM
+            MENUITEM "&Debugger...",                ID_TOOL_DEBUG
+            MENUITEM SEPARATOR
+            POPUP "&Macro"
+            BEGIN
+                MENUITEM "&Record...",                  ID_TOOL_MACRO_RECORD
+                , GRAYED
+                MENUITEM "&Play...",                    ID_TOOL_MACRO_PLAY
+                , GRAYED
+                MENUITEM "&Stop",                       ID_TOOL_MACRO_STOP
+                , GRAYED
+                MENUITEM "S&ettings...",                ID_TOOL_MACRO_SETTINGS
+            END
+        END
+        POPUP "&Help"
+        BEGIN
+            MENUITEM "&About Emu48...",             ID_ABOUT
+        END
+    END
+END
+
+IDR_DEBUG MENU DISCARDABLE
+BEGIN
+    POPUP "&Debug"
+    BEGIN
+        MENUITEM "&Run\tF5",                    ID_DEBUG_RUN
+        MENUITEM "Run to &Cursor\tF6",          ID_DEBUG_RUNCURSOR
+        MENUITEM "&Step Into\tF7",              ID_DEBUG_STEP
+        MENUITEM "Step &Over\tF8",              ID_DEBUG_STEPOVER
+        MENUITEM "Step O&ut\tF9",               ID_DEBUG_STEPOUT
+        MENUITEM "&Break\tF11",                 ID_DEBUG_BREAK
+    END
+    POPUP "&Breakpoints"
+    BEGIN
+        MENUITEM "Set &Breakpoint\tF2",         ID_BREAKPOINTS_SETBREAK
+        MENUITEM "&Edit Breakpoints...",        ID_BREAKPOINTS_CODEEDIT
+        MENUITEM "&Clear All Breakpoints",      ID_BREAKPOINTS_CLEARALL
+        MENUITEM SEPARATOR
+        MENUITEM "&NOP3 Code Breakpoints",      ID_BREAKPOINTS_NOP3
+        MENUITEM "CODE &Object Breakpoints",    ID_BREAKPOINTS_DOCODE
+        MENUITEM SEPARATOR
+        MENUITEM "&RPL Breakpoints",            ID_BREAKPOINTS_RPL
+    END
+    POPUP "I&nterrupts"
+    BEGIN
+        MENUITEM "&Step Over Interrupts",       ID_INTR_STEPOVERINT
+    END
+    POPUP "&Info"
+    BEGIN
+        MENUITEM "&Last Instructions...",       ID_INFO_LASTINSTRUCTIONS
+        MENUITEM "&Profiler...",                ID_INFO_PROFILE
+        MENUITEM "&Write Only Registers...",    ID_INFO_WRITEONLYREG
+    END
+END
+
+IDR_DEBUG_CODE MENU DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Go to address...\tG",        ID_DEBUG_CODE_GOADR
+        MENUITEM "Go to &PC",                   ID_DEBUG_CODE_GOPC
+        MENUITEM "Set &breakpoint\tF2",         ID_BREAKPOINTS_SETBREAK
+        MENUITEM "&Set PC to selection",        ID_DEBUG_CODE_SETPCTOSELECT
+        MENUITEM SEPARATOR
+        POPUP "&Find"
+        BEGIN
+            MENUITEM "&Previous PCO",               ID_DEBUG_CODE_PREVPCO
+            MENUITEM "&Next PCO",                   ID_DEBUG_CODE_NEXTPCO
+        END
+    END
+END
+
+IDR_DEBUG_MEM MENU DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Go to address...\tG",        ID_DEBUG_MEM_GOADR
+        MENUITEM "Go to &PC",                   ID_DEBUG_MEM_GOPC
+        MENUITEM "Go to D&0",                   ID_DEBUG_MEM_GOD0
+        MENUITEM "Go to D&1",                   ID_DEBUG_MEM_GOD1
+        MENUITEM "Go to &Stack",                ID_DEBUG_MEM_GOSTACK
+        POPUP "Follo&w"
+        BEGIN
+            MENUITEM "&none",                       ID_DEBUG_MEM_FNONE
+            MENUITEM SEPARATOR
+            MENUITEM "&Address Content",            ID_DEBUG_MEM_FADDR
+            MENUITEM "Register &PC",                ID_DEBUG_MEM_FPC
+            MENUITEM "Register D&0",                ID_DEBUG_MEM_FD0
+            MENUITEM "Register D&1",                ID_DEBUG_MEM_FD1
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Find...\tF",                 ID_DEBUG_MEM_FIND
+        MENUITEM SEPARATOR
+        POPUP "&Mapping"
+        BEGIN
+            MENUITEM "&Map",                        ID_DEBUG_MEM_MAP
+            MENUITEM SEPARATOR
+            MENUITEM "&NCE1",                       ID_DEBUG_MEM_NCE1
+            , GRAYED
+            MENUITEM "N&CE2",                       ID_DEBUG_MEM_NCE2
+            , GRAYED
+            MENUITEM "CE&1",                        ID_DEBUG_MEM_CE1, GRAYED
+            MENUITEM "CE&2",                        ID_DEBUG_MEM_CE2, GRAYED
+            MENUITEM "NCE&3",                       ID_DEBUG_MEM_NCE3
+            , GRAYED
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Load Memory Data...",        ID_DEBUG_MEM_LOAD
+        MENUITEM "S&ave Memory Data...",        ID_DEBUG_MEM_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&RPL Object Viewer...",       ID_DEBUG_MEM_RPLVIEW
+    END
+END
+
+IDR_DEBUG_STACK MENU DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "&Push",                       ID_DEBUG_STACK_PUSH
+        MENUITEM "P&op",                        ID_DEBUG_STACK_POP
+        MENUITEM "&Modify",                     ID_DEBUG_STACK_MODIFY
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "Emu48.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MENU ACCELERATORS DISCARDABLE
+BEGIN
+    "C",            ID_STACK_COPY,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_STACK_PASTE,         VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    ID_DEBUG_RUN            "Run"
+    ID_DEBUG_RUNCURSOR      "Run to Cursor"
+    ID_DEBUG_STEP           "Step Into"
+    ID_DEBUG_STEPOVER       "Step Over"
+    ID_DEBUG_BREAK          "Break Execution"
+    ID_DEBUG_STEPOUT        "Step Out"
+    ID_DEBUG_CANCEL         "Stop Debugging"
+    ID_BREAKPOINTS_SETBREAK "Insert/Remove Breakpoint"
+    ID_BREAKPOINTS_CODEEDIT "Breakpoint List"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

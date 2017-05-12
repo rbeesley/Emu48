@@ -1,0 +1,190 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  15, 32, 164, 167
+STYLE WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Emu48 Ram Card"
+CLASS "CMkShared"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_MKSHARED,IDC_STATIC,6,6,21,20
+    CTEXT           "Emu48\nRam Card Creator",IDC_STATIC_TITLE,34,6,94,26,
+                    NOT WS_GROUP
+    ICON            IDI_MKSHARED,IDC_STATIC,137,6,21,20
+    GROUPBOX        "Size",IDC_STATIC,6,30,90,53
+    CONTROL         "32kb",IDC_CARD32,"Button",BS_AUTORADIOBUTTON | BS_RIGHT | 
+                    WS_GROUP | WS_TABSTOP,14,40,34,10
+    CONTROL         "128kb",IDC_CARD128,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,14,50,34,10
+    CONTROL         "256kb",IDC_CARD256,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,14,60,34,10
+    CONTROL         "512kb",IDC_CARD512,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,14,70,34,10
+    CONTROL         "1mb",IDC_CARD1024,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,60,40,26,10
+    CONTROL         "2mb",IDC_CARD2048,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,60,50,26,10
+    CONTROL         "4mb",IDC_CARD4096,"Button",BS_AUTORADIOBUTTON | 
+                    BS_RIGHT,60,60,26,10
+    GROUPBOX        "Filename:",IDC_STATIC,6,86,152,28
+    EDITTEXT        IDC_FILENAME,13,96,138,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Create",IDOK,108,40,50,14
+    CTEXT           "",IDC_RESULT,108,62,50,14,SS_CENTERIMAGE | NOT WS_GROUP
+    GROUPBOX        "File Information:",IDC_STATIC,6,118,152,43
+    LTEXT           "Actual File Size:",IDC_STATIC,13,129,57,8,NOT WS_GROUP
+    LTEXT           "Static",IDC_FILE_SIZE,72,129,79,8,NOT WS_GROUP
+    LTEXT           "Number of Ports:",IDC_STATIC,13,138,57,8,NOT WS_GROUP
+    LTEXT           "Static",IDC_NO_OF_PORTS,72,138,79,8,NOT WS_GROUP
+    LTEXT           "Ports:",IDC_STATIC,13,147,57,8,NOT WS_GROUP
+    LTEXT           "Static",IDC_PORT_NO,72,147,79,8,NOT WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 158
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 161
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MKSHARED            ICON    DISCARDABLE     "MkShared.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "MkShared.xml"
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,0,0
+ PRODUCTVERSION 1,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "00000000"
+        BEGIN
+            VALUE "CompanyName", "Christoph Gieﬂelink\0"
+            VALUE "FileDescription", "HP48 RAM Card Creator for Emu48\0"
+            VALUE "FileVersion", "1, 5, 0, 0\0"
+            VALUE "InternalName", "MkShared\0"
+            VALUE "LegalCopyright", "Copyright © 2006\0"
+            VALUE "OriginalFilename", "MkShared.exe\0"
+            VALUE "ProductName", "MkShared\0"
+            VALUE "ProductVersion", "1, 5, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 0
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
